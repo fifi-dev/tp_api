@@ -1,6 +1,14 @@
-____________________________
-Today Weather
-_____________________________
+## Today Weather
+
+## The project
+
+## Built With :
+
+This project was carried out with the use of the following languages :
+
+* [HTML]
+* [CSS]
+* [JAVASCRIPT]
 
 ### Description :
 
