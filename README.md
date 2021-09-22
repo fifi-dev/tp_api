@@ -1,4 +1,4 @@
-<h3 align="center">Today Weather</h3>
+<h1 align="center">Today Weather</h1>
 
 ## The project
 
@@ -45,6 +45,8 @@ Contributions are what make the open source community such an amazing place to l
 
 - SAINT MARTIN Julie `https://github.com/jstm17`
 
+
+## Acknowledgements
 
 
 
