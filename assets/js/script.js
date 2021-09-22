@@ -19,8 +19,10 @@ fetch("http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=18510638b
 
 function AfficheAPI(data) {
     if (data.message == "city not found") {
-        document.querySelector(".error_message").insertAdjacentHTML("beforeend", 
-        "<h2>La ville demandée n'a pas été trouvée.</h2>");
+        let error = document.querySelector(".error_message")
+        error.insertAdjacentHTML("beforeend", 
+        "La ville demandée n'a pas été trouvée.");
+        error.classList.add("error_affiche");
     }
     else {        
         document.querySelector(".city").insertAdjacentHTML("beforeend", data.name);
@@ -32,6 +34,8 @@ function AfficheAPI(data) {
         document.querySelector(".weather_temp").insertAdjacentText("afterbegin", Math.round(data.main.temp)+" °");
         document.querySelector(".weather_temp_min").insertAdjacentText("afterbegin", Math.round(data.main.temp_min)+" °C");
         document.querySelector(".weather_temp_max").insertAdjacentText("afterbegin", Math.round(data.main.temp_max)+" °C");
+        let date = new Date();
+        let options = {weekday: "long", year: "numeric", month: "long", day: "2-digit"};
+        document.querySelector("header").insertAdjacentText("afterbegin", date.toLocaleDateString("fr-FR", options));
     }
 }
-//<h1>"+data.name+"</h1><img src='https://openweathermap.org/img/wn/"+data.weather[0].icon+".png' alt=''>

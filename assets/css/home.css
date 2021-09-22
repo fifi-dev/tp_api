@@ -82,7 +82,7 @@ main {
     color: #ba6f008a;
 }
 
-.search_bar input[type='button'] {
+.search_bar input[type='submit'] {
     background: url(../img/search_icon.png) center/ 70% 70% no-repeat;
     background-color: #FFA41C;
     height: 40px;
@@ -146,6 +146,11 @@ main {
     margin: auto;
     margin-top: 20px;
     padding: 10px;
+    display: none;
+}
+
+.error_affiche {
+    display: block;
 }
 
 @media (max-width: 500px) {
