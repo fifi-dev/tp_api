@@ -29,6 +29,7 @@ function AfficheAPI(data) {
         error.insertAdjacentHTML("beforeend", 
         "La ville demandée n'a pas été trouvée.");
         error.classList.add("error_affiche");
+        document.querySelector(".weather_details").classList.add("error_city");
     }
     else {        
         // Affichage du nom de la ville
