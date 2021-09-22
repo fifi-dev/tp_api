@@ -2,15 +2,16 @@
 
 ## The project
 
+### Description :
+
 ## Built With :
 
 This project was carried out with the use of the following languages :
 
-* [HTML]
-* [CSS]
-* [JAVASCRIPT]
+* HTML
+* CSS
+* JAVASCRIPT
 
-### Description :
 
 ## Getting Started
 
