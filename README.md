@@ -1,4 +1,4 @@
-<h1 align="center">Today Weather</h1>
+<h3 align="center" style="color: yellow;">Today Weather</h3>
 
 ## The project
 
