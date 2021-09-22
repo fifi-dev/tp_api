@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.flexbox_c{
+    display: flex;
+    flex-direction: column;
+}
+
+.jc_c{
+    justify-content: center;
+}
+
+.jc_sb{
+    justify-content: space-between;
+}
+
+.ai_c {
+    align-items: center;
+}
+
+body{
+    background-color: #7389FF;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+header{
+    position: relative;
+    top: 0px;
+    text-align: right;
+    padding: 50px;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.search_bar{
+    margin: auto;
+    width: 300px;
+}
+.search_bar input[type='text']{
+    width: 100%;
+    height: 40px;
+}
