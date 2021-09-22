@@ -35,17 +35,13 @@ Contributions are what make the open source community such an amazing place to l
 
 ### Credits :
 
-```
-BAZANA NTOMO Fideline - https://github.com/fifi-dev
-```
 
-```
-MARTINET Alexis - https://github.com/Wintxer
-```
+- BAZANA NTOMO Fideline `https://github.com/fifi-dev`
 
-```
-SAINT MARTIN Julie - https://github.com/jstm17
-```
+- MARTINET Alexis `https://github.com/Wintxer`
+
+- SAINT MARTIN Julie `https://github.com/jstm17`
+
 
 
 
