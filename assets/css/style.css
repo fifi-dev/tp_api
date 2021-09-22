@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox_c {
+    display: flex;
+    flex-direction: column;
+}
+
+.jc_c {
+    justify-content: center;
+}
+
+.jc_sb {
+    justify-content: space-between;
+}
+
+.ai_c {
+    align-items: center;
+}
+
+body {
+    background-color: #7389FF;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    text-align: right;
+    padding: 50px;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.search_bar {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    position: relative;
+    box-shadow: #515cb1aa 0px 0px 15px;
+}
+
+.search_bar input[type='text'] {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.search_bar input[type='text']::-webkit-input-placeholder {
+    color: #ba6f008a;
+}
+
+.search_bar input[type='button'] {
+    background: url(../img/search_icon.png) center/ 70% 70% no-repeat;
+    background-color: #FFA41C;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    box-shadow: #FFA41C 0px 0px 5px;
+}
+
+.weather_icon {
+    margin: auto;
+    width: 200px;
+    display: block;
+    margin-top: 40px;
+}
+
+.weather_title {
+    color: #FFA41C;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: #aa6e1398 0px 0px 5px;
+}
+
+.weather_details {
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #515db1aa 0px 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 150px;
+}
+
+.weather_details img {
+    /* width: 20px; */
+    height: 20px;
+    margin-right: 8px;
+}
+
+.weather_details p {
+    color: black;
+    margin: 0;
+}
+
+.weather_temp {
+    font-size: 5rem;
+    line-height: 60px;
+}
