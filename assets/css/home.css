@@ -146,6 +146,11 @@ main {
     margin: auto;
     margin-top: 20px;
     padding: 10px;
+    display: none;
+}
+
+.error_affiche {
+    display: block;
 }
 
 @media (max-width: 500px) {
