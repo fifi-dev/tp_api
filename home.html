@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Today's date -->
+    <header>
+        date du jour
+    </header>
+
+    <main>
+
+        <!-- Title -->
+        <h1 class="title">Today Weather</h1>
+
+        <!-- Search bar -->
+        <div class="search_bar">
+            <input type="text" placeholder="Chercher une ville...">
+            <input type="button" value="" class="search_bar_btn">
+        </div>
+
+        <!-- Weather icon -->
+        <img src="img/wind_icon.png" alt="" class="weather_icon">
+
+        <!-- Weather title -->
+        <p class="weather_title">Soleil</p>
+
+        <!-- Weather details -->
+        <div class="weather_details">
+
+            <div class="flexbox_c jc_sb">
+                <!-- Feels like -->
+                <p>Ressenti 12°</p>
+
+                <!-- Wind -->
+                <div class="flexbox ai_c">
+                    <img src="img/wind_icon.png" alt="">
+                    <p>12km/h</p>
+                </div>
+
+                <!-- Humidity -->
+                <div class="flexbox ai_c">
+                    <img src="img/humidity_icon.png" alt="">
+                    <p>13</p>
+                </div>
+
+            </div>
+
+            <div class="flexbox_c jc_sb">
+                <!-- Temp -->
+                <p class="weather_temp">12°</p>
+
+                <div class="flexbox jc_sb">
+                    <!-- Temp min -->
+                    <div class="flexbox ai_c">
+                        <img src="img/temp_min_icon.png" alt="">
+                        <p>12°</p>
+                    </div>
+
+                    <!-- Temp max -->
+                    <div class="flexbox ai_c">
+                        <img src="img/temp_max_icon.png" alt="">
+                        <p>12°</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
