@@ -4,10 +4,23 @@ body{
     background-color: #7389FF;
 }
 
-/*Flex Content Div*/
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* ___Flex Content Div___*/
 
 .flexContent{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+/*img container*/
+
+.imgContainer{
+    width: 350px;
+    margin-top: 4vh;
+}
+
