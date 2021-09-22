@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Today's date -->
@@ -22,58 +24,60 @@
 
         <!-- Search bar -->
         <div class="search_bar">
-            <input type="text">
+            <input type="text" placeholder="Chercher une ville...">
             <input type="button" value="" class="search_bar_btn">
         </div>
 
-        <!-- Image -->
-        <img src="" alt="">
+        <!-- Weather icon -->
+        <img src="img/wind_icon.png" alt="" class="weather_icon">
 
         <!-- Weather title -->
-        <p class="weather_title"></p>
+        <p class="weather_title">Soleil</p>
 
         <!-- Weather details -->
         <div class="weather_details">
 
-            <div>
+            <div class="flexbox_c jc_sb">
                 <!-- Feels like -->
-                <p>Ressenti</p>
-    
+                <p>Ressenti 12°</p>
+
                 <!-- Wind -->
-                <div>
-                    <img src="" alt="">
-                    <p></p>
+                <div class="flexbox ai_c">
+                    <img src="img/wind_icon.png" alt="">
+                    <p>12km/h</p>
                 </div>
-    
+
                 <!-- Humidity -->
-                <div class="">
-                    <img src="" alt="">
-                    <p></p>
+                <div class="flexbox ai_c">
+                    <img src="img/humidity_icon.png" alt="">
+                    <p>13</p>
                 </div>
 
             </div>
 
-            <div>
+            <div class="flexbox_c jc_sb">
                 <!-- Temp -->
-                <p></p>
+                <p class="weather_temp">12°</p>
 
-                <!-- Temp min -->
-                <div class="">
-                    <img src="" alt="">
-                    <p></p>
+                <div class="flexbox jc_sb">
+                    <!-- Temp min -->
+                    <div class="flexbox ai_c">
+                        <img src="img/temp_min_icon.png" alt="">
+                        <p>12°</p>
+                    </div>
+
+                    <!-- Temp max -->
+                    <div class="flexbox ai_c">
+                        <img src="img/temp_max_icon.png" alt="">
+                        <p>12°</p>
+                    </div>
                 </div>
-
-                <!-- Temp max -->
-                <div class="">
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-
             </div>
         </div>
     </main>
 
 
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
