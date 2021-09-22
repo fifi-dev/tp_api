@@ -28,24 +28,34 @@ body {
     color: white;
     font-family: 'Montserrat';
     font-size: 1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
     position: relative;
     top: 0px;
     text-align: right;
-    padding: 50px;
+    padding: 20px;
+    padding-right: 50px;
+}
+main{
+    margin-bottom: 50px;
 }
 
 .title {
     font-size: 3rem;
     text-align: center;
     margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 .search_bar {
     margin: auto;
-    width: 400px;
+    width: 300px;
     display: flex;
     position: relative;
     box-shadow: #515cb1aa 0px 0px 15px;
@@ -120,4 +130,16 @@ header {
 .weather_temp {
     font-size: 5rem;
     line-height: 60px;
+}
+
+@media (max-width: 500px){
+    .title{
+        font-size: 2.5rem;
+    }
+
+    header{
+        text-align: center;
+        padding-right: 0px;
+
+    }
 }
