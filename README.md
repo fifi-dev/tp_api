@@ -1,4 +1,4 @@
-## Today Weather
+<h3 align="center">Today Weather</h3>
 
 ## The project
 
