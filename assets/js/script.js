@@ -19,10 +19,11 @@ fetch("http://api.openweathermap.org/data/2.5/weather?q="+url.split("?ville=")[1
 
 function AfficheAPI(data) {
     if (data.message == "city not found") {
-        div.insertAdjacentHTML("beforeend", 
-        "<h2>La ville demandée n'a pas été trouvée</h2>");
+        document.querySelector(".error_message").insertAdjacentHTML("beforeend", 
+        "<h2>La ville demandée n'a pas été trouvée.</h2>");
     }
     else {        
+        document.querySelector(".city").insertAdjacentHTML("beforeend", data.name);
         document.querySelector(".weather_title").insertAdjacentHTML("beforeend", data.weather[0].description[0].toUpperCase()+data.weather[0].description.slice(1));
         document.querySelector(".weather_icon").setAttribute("src", "https://openweathermap.org/img/wn/"+data.weather[0].icon+".png");
         document.querySelector(".feels_like").insertAdjacentText("beforeend", "Ressenti "+Math.round(data.main.feels_like)+" °C");

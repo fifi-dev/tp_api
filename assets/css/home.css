@@ -28,7 +28,7 @@ body {
     color: white;
     font-family: 'Montserrat';
     font-size: 1rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
@@ -42,7 +42,8 @@ header {
     padding: 20px;
     padding-right: 50px;
 }
-main{
+
+main {
     margin-bottom: 50px;
 }
 
@@ -55,10 +56,16 @@ main{
 
 .search_bar {
     margin: auto;
-    width: 300px;
+    width: 350px;
     display: flex;
     position: relative;
     box-shadow: #515cb1aa 0px 0px 15px;
+}
+
+.city{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 .search_bar input[type='text'] {
@@ -93,7 +100,6 @@ main{
     margin: auto;
     width: 200px;
     display: block;
-    margin-top: 40px;
 }
 
 .weather_title {
@@ -102,10 +108,11 @@ main{
     font-weight: 600;
     text-align: center;
     text-shadow: #aa6e1398 0px 0px 5px;
+    margin-top: 0;
 }
 
 .weather_details {
-    width: 300px;
+    width: 350px;
     margin: auto;
     background-color: white;
     border-radius: 10px;
@@ -132,12 +139,21 @@ main{
     line-height: 60px;
 }
 
-@media (max-width: 500px){
-    .title{
+.error_message{
+    background-color: rgb(250, 55, 55);
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .title {
         font-size: 2.5rem;
     }
 
-    header{
+    header {
         text-align: center;
         padding-right: 0px;
 
