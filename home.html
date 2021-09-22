@@ -23,53 +23,56 @@
         <h1 class="title">Today Weather</h1>
 
         <!-- Search bar -->
+            <form action="">
         <div class="search_bar">
-            <input type="text" placeholder="Chercher une ville...">
-            <input type="button" value="" class="search_bar_btn">
+                <input type="text" id="city" name="ville" placeholder="Chercher une ville...">
+                <input type="button" value="" class="search_bar_btn">
+            
         </div>
+    </form>
 
         <!-- Weather icon -->
-        <img src="assets/img/wind_icon.png" alt="" class="weather_icon">
+        <img src="" alt="" class="weather_icon">
 
         <!-- Weather title -->
-        <p class="weather_title">Soleil</p>
+        <p class="weather_title"></p>
 
         <!-- Weather details -->
         <div class="weather_details">
 
             <div class="flexbox_c jc_sb">
                 <!-- Feels like -->
-                <p>Ressenti 12°</p>
+                <p class="feels_like"></p>
 
                 <!-- Wind -->
                 <div class="flexbox ai_c">
                     <img src="assets/img/wind_icon.png" alt="">
-                    <p>12km/h</p>
+                    <p class="wind"></p>
                 </div>
 
                 <!-- Humidity -->
                 <div class="flexbox ai_c">
                     <img src="assets/img/humidity_icon.png" alt="">
-                    <p>13</p>
+                    <p class="humidity"></p>
                 </div>
 
             </div>
 
             <div class="flexbox_c jc_sb">
                 <!-- Temp -->
-                <p class="weather_temp">12°</p>
+                <p class="weather_temp"></p>
 
                 <div class="flexbox jc_sb">
                     <!-- Temp min -->
                     <div class="flexbox ai_c">
                         <img src="assets/img/temp_min_icon.png" alt="">
-                        <p>12°</p>
+                        <p class="weather_temp_min"></p>
                     </div>
 
                     <!-- Temp max -->
                     <div class="flexbox ai_c">
                         <img src="assets/img/temp_max_icon.png" alt="">
-                        <p>12°</p>
+                        <p class="weather_temp_max"></p>
                     </div>
                 </div>
             </div>
