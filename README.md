@@ -36,7 +36,7 @@ Contributions are what make the open source community such an amazing place to l
 - Open a Pull Request
 
 
-### Credits :
+## Credits :
 
 
 - BAZANA NTOMO Fideline `https://github.com/fifi-dev`
