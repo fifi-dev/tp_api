@@ -109,7 +109,7 @@ header {
 .weather_details img {
     /* width: 20px; */
     height: 20px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .weather_details p {
