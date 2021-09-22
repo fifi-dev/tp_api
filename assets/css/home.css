@@ -62,7 +62,7 @@ main {
     box-shadow: #515cb1aa 0px 0px 15px;
 }
 
-.city{
+.city {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 0;
@@ -82,7 +82,7 @@ main {
     color: #ba6f008a;
 }
 
-.search_bar input[type='button'] {
+.search_bar input[type='submit'] {
     background: url(../img/search_icon.png) center/ 70% 70% no-repeat;
     background-color: #FFA41C;
     height: 40px;
@@ -104,7 +104,7 @@ main {
 
 .weather_title {
     color: #FFA41C;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     text-shadow: #aa6e1398 0px 0px 5px;
@@ -139,7 +139,7 @@ main {
     line-height: 60px;
 }
 
-.error_message{
+.error_message {
     background-color: rgb(250, 55, 55);
     border-radius: 10px;
     width: 350px;
