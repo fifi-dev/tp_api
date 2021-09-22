@@ -4,6 +4,8 @@
 
 ### Description :
 
+Today Weather a website allowing to know the weather of the day thanks to the use of an API of [OpenWeather](https://openweathermap.org/).
+
 ### Built With :
 
 This project was carried out with the use of the following languages :
