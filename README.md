@@ -1,7 +1,7 @@
 <h3 align="center" style="color: yellow;">Today Weather</h3>
 
 ## The project
-
+ 
 ### Description :
 
 Today Weather a website allowing to know the weather of the day thanks to the use of an API of [Superheroapi](https://www.superheroapi.com/).
