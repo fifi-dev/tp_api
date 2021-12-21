@@ -4,15 +4,14 @@
 
 ### Description :
 
-Today Weather a website allowing to know the weather of the day thanks to the use of an API of [OpenWeather](https://openweathermap.org/).
+Today Weather a website allowing to know the weather of the day thanks to the use of an API of [Superheroapi](https://www.superheroapi.com/).
 
 ### Built With :
 
 This project was carried out with the use of the following languages :
 
-* HTML
-* CSS
-* JAVASCRIPT
+* SYMFONY
+* BOOSTRAP
 
 
 ## Getting Started
@@ -41,9 +40,6 @@ Contributions are what make the open source community such an amazing place to l
 
 - BAZANA NTOMO Fideline `https://github.com/fifi-dev`
 
-- MARTINET Alexis `https://github.com/Wintxer`
-
-- SAINT MARTIN Julie `https://github.com/jstm17`
 
 
 ## Acknowledgements
