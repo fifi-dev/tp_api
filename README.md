@@ -10,8 +10,9 @@ Today Weather a website allowing to know the weather of the day thanks to the us
 
 This project was carried out with the use of the following languages :
 
-* SYMFONY
-* BOOSTRAP
+* HTML
+* CSS
+* JAVASCRIPT
 
 
 ## Getting Started
@@ -39,6 +40,10 @@ Contributions are what make the open source community such an amazing place to l
 
 
 - BAZANA NTOMO Fideline `https://github.com/fifi-dev`
+
+- MARTINET Alexis `https://github.com/Wintxer`
+
+- SAINT MARTIN Julie `https://github.com/jstm17`
 
 
 
