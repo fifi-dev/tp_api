@@ -4,7 +4,7 @@
  
 ### Description :
 
-Today Weather a website allowing to know the weather of the day thanks to the use of an API of [Superheroapi](https://www.superheroapi.com/).
+Today Weather a website allowing to know the weather of the day thanks to the use of an API of [OpenWeather](https://openweathermap.org/).
 
 ### Built With :
 
